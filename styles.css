@@ -1,20 +1,73 @@
-*{
-    margin: 0%;
-    padding: 0%;
+pero me gustaria unos colores negros y amarrillos
+
+Listo, aquí lo tienes en negro y amarillo estilo gamer:
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: rgb(252, 251, 251);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #f5f5f5;
 }
 
-.logoo{
-    background-color: rgb(0, 0, 0);
-    align-items: end;
-    height: 80px;
+header {
+    background-color: #0a0a0a;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #facc15;
 }
-.titulo{
-    text-align: left;
-    color: yellow;
-      background-color: rgb(0, 0, 0);
-    
+
+.titulo {
+    font-size: 2.5rem;
+    color: #facc15;
+    margin-bottom: 10px;
+}
+
+.logoo {
+    width: 120px;
+    margin: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.menu__link:hover {
+    color: #facc15;
+    text-shadow: 0 0 10px #facc15;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #0a0a0a;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.3);
+}
+
+main h2 {
+    color: #facc15;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
 }
