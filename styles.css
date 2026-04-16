@@ -51,16 +51,22 @@ ul {
     color: yellow;
 }
 
-
-
 .fondo {
     height: 100vh;
     background: 
-        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-        url("raton-teclado-computadora-joystick-sobre-fondo-negro_93675-159166.avif") no-repeat center center/cover;
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("raton-teclado-computadora-joystick-sobre-fondo-negro_93675-159166.avif");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     display: flex;
     align-items: center;
     justify-content: center;
+}
+body {
+    margin: 0;
 }
 
 .fondo__text {
