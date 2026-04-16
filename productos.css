@@ -58,8 +58,16 @@ h3 {
     color: rgb(77, 255, 0);
 }
 
-h{
+{
     color: yellow;
     background-color: blue;
+    text-align: center;
+}
+.log{
+    color: yellow;
+    text-align: center;
+}
+.red{
+    color: yellow;
     text-align: center;
 }
