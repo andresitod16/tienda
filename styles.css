@@ -42,13 +42,13 @@ ul {
 
 .menu__link {
     text-decoration: none;
-    color: yellow;
+    color: white;
     font-size: 16px;
     transition: 0.3s;
 }
 
 .menu__link:hover {
-    color: #fff;
+    color: yellow;
 }
 
 
@@ -72,3 +72,10 @@ ul {
     color: yellow;
     font-size: 40px;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #222;
+    color: #777;
+    margin-top: 40px;
+ }
